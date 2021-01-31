@@ -1,0 +1,38 @@
+/* OVERVIEW
+=================================*/
+
+.overview {
+  display: flex;
+
+  &__heading {
+
+  }
+
+  &__stars {
+    //flex: 1; // this technique occupies also the space between, cursor will show if hovered.
+    margin-right: auto; // key to create space between stars and location-pin without occupying space so that cursors will not appear if hovered in the space.
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: $color-primary;
+  }
+
+  &__icon-location {
+    
+  }
+
+  &__rating {
+
+  }
+
+  &__rating-average {
+
+  }
+
+  &__rating-count {
+
+  }
+}
