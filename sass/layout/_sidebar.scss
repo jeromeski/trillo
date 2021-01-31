@@ -1,6 +1,12 @@
+/* SIDE BAR
+=================================*/
 
 .sidebar {
   background-color: $color-grey-dark-1;
   flex: 0 0 18%; // will not grow, will not shrink, initial width is 18% of available width
+
+  display: flex;
+  flex-direction: column; // main axis is now top to bottom
+  justify-content: space-between;
 
 }
