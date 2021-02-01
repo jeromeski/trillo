@@ -239,6 +239,22 @@ body {
     transform: scale(1);
     box-shadow: none; } }
 
+/* DESCRIPTION
+=================================*/
+.description {
+  font-size: 1.4rem;
+  background-color: #ffffff;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+/* USER REVIEWS
+=================================*/
+.user-reviews {
+  background-color: greenyellow;
+  flex: 1; }
+
 /* CONTAINER
 =================================*/
 .container {
@@ -277,5 +293,12 @@ body {
 =================================*/
 .hotel-view {
   background-color: white;
-  flex: 1;
-  height: 80rem; }
+  flex: 1; }
+
+/* DETAIL
+=================================*/
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: #faf9f9;
+  border-bottom: 1px solid #f4f2f2; }
