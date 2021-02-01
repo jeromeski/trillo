@@ -3,4 +3,9 @@
 
 .content {
   display: flex;
+
+  // Aligns the sidebar on top
+  @media only screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
 }
